@@ -1,0 +1,46 @@
+{
+  "name": "west-coast-fitness-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React + Vite + TypeScript client for Leading West Coast Fitness Club (Arizona).",
+  "type": "module",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=20 <21",
+    "npm": ">=10 <11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "duplication": "jscpd src"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.5.0",
+    "@testing-library/react": "16.0.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "@vitest/coverage-v8": "2.0.5",
+    "eslint": "8.47.0",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-refresh": "0.4.12",
+    "eslint-plugin-security": "3.0.1",
+    "eslint-plugin-sonarjs": "0.25.1",
+    "jscpd": "4.0.5",
+    "jsdom": "24.1.3",
+    "typescript": "5.4.5",
+    "vite": "5.4.11",
+    "vitest": "2.0.5"
+  }
+}
